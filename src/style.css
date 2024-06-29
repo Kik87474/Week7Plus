@@ -5,8 +5,7 @@ body {
 a {
   color: plum;
 }
-h1 {
-}
+
 .weather-app {
   background: white;
   max-width: 600px;
@@ -54,6 +53,21 @@ main {
 }
 .weather-app-details strong {
   color: #f9f7fe;
+}
+.weather-app-temperature-container {
+  display: flex;
+}
+.weather-app-temperature {
+  font-size: 80px;
+  font-weight: bold;
+}
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+.weather-app-unit {
+  margin-top: 16px;
+  font-size: 28px;
 }
 footer {
   border-top: 1px solid #f9f7fe;
